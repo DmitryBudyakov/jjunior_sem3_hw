@@ -22,7 +22,7 @@ public class Student implements Serializable {
     /**
      * Средний балл
      */
-    @JsonIgnore
+//    @JsonIgnore
     private transient double GPA;
 
     public Student(){
@@ -72,7 +72,7 @@ public class Student implements Serializable {
         return GPA;
     }
 
-    @JsonIgnore
+//    @JsonIgnore
     public void setGPA(double GPA) {
         this.GPA = GPA;
     }
